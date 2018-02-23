@@ -45,6 +45,7 @@
             android:layout_marginLeft="50dp"/>
 
         <EditText
+            android:id="@+id/key"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -72,8 +73,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:id="@+id/passImage"
-            android:src="@mipmap/ic_launcher" />
+            android:id="@+id/passImage" />
 
     </LinearLayout>
 
@@ -94,6 +94,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/login"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="登录"
